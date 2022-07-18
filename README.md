@@ -82,5 +82,4 @@ Repo:
   -  File: 0-bubble_sort.c, 0-O
 
 
-
-betty 0-bubble_sort.c sort.h; gcc -Wall -pedantic -Werror -Wextra -std=gnu89 0-main.c 0-bubble_sort.c 8-print_array.c -o a; ./a
+betty 0-bubble_sort.c sort.h; gcc -Wall -pedantic -Werror -Wextra -std=gnu89 tests/0-main.c 0-bubble_sort.c 8-print_array.c -o tests/a; ./tests/a
