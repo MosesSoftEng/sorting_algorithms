@@ -83,3 +83,6 @@ Repo:
 
 
 betty 0-bubble_sort.c sort.h; gcc -Wall -pedantic -Werror -Wextra -std=gnu89 tests/0-main.c 0-bubble_sort.c 8-print_array.c -o tests/a; ./tests/a
+
+
+betty 2-selection_sort.c sort.h; gcc -Wall -pedantic -Werror -Wextra -std=gnu89 tests/2-main.c 2-selection_sort.c 8-print_array.c -o tests/a; ./tests/a

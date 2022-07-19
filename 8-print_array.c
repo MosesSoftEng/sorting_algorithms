@@ -1,25 +1,22 @@
 #include "sort.h"
 
 /**
- * print_array - Prints elements of an array of integers
+ * print_array - Prints an array of integers
  *
- * @a: Array of integers
- * @n: Number of elements to print
+ * @array: The array to be printed
+ * @size: Number of elements in @array
  */
-void print_array(int *a, int n)
+void print_array(const int *array, size_t size)
 {
-	int i;
+	size_t i;
 
-	/* Use for loop as we know number of iterations */
-	for (i = 0; i < n; i++)
+	i = 0;
+	while (array && i < size)
 	{
-		printf("%d", a[i]);
-
-		/* If at last element, do not print comma */
-		if (i != n - 1)
-			/* Print comma */
+		if (i > 0)
 			printf(", ");
+		printf("%d", array[i]);
+		++i;
 	}
-
 	printf("\n");
 }
