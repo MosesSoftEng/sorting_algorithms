@@ -1,8 +1,3 @@
-/*
- * File: 101-cocktail_sort_list.c
- * Auth: cynthia and Moses
- */
-
 #include "sort.h"
 
 void swap_node_ahead(listint_t **list, listint_t **tail, listint_t **shaker);
